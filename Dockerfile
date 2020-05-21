@@ -18,4 +18,4 @@ ARG APP_USER=appuser
 RUN groupadd -r ${APP_USER} && useradd --no-log-init -r -g ${APP_USER} ${APP_USER}
 USER ${APP_USER}:${APP_USER}
 
-CMD [ "tail", "-f", "/dev/null" ]
+CMD [ "python", "puppy_store/manage.py", "runserver" ,"0.0.0.0:8000"]
