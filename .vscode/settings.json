@@ -1,0 +1,22 @@
+{
+  "python.formatting.provider": "black",
+  "editor.formatOnSave": true,
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": false,
+  "python.linting.mypyEnabled": true,
+  "python.linting.flake8Args": [],
+  "python.envFile": "${workspaceRoot}/.env",
+  "python.pythonPath": "/Users/andreipetric/drucademy/tdd-django-course/.env/bin/python3",
+  "python.linting.enabled": true,
+  "files.exclude": {
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/*.pyc": { "when": "$(basename).py" },
+    "**/__pycache__": true,
+    ".mypy_cache": true,
+    ".pytest_cache": true
+  },
+  "editor.formatOnSaveTimeout": 3000
+}

@@ -1,1 +1,10 @@
 django==1.11.0
+psycopg2>=2.7,<3.0
+djangorestframework==3.6.2
+dataclasses
+
+# Used for code formatting
+black
+
+# Used for linting
+mypy
